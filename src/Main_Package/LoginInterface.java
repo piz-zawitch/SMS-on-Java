@@ -221,7 +221,7 @@ public class LoginInterface extends javax.swing.JFrame {
                 
                 //yung gawa niyo na to
                   if(user.equals(Usr) && pass.equals(Pass)){
-                        new StudentDashboard().setVisible(true);
+                        new DashBoard().setVisible(true);
                          this.dispose();
                         
 
